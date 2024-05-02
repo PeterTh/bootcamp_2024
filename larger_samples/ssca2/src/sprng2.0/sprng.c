@@ -34,7 +34,9 @@
 #include "pmlcg.h"
 #endif
 
+#ifndef NDEBUG
 #define NDEBUG
+#endif
 #include <assert.h>
 
 #define VERSION "00"

@@ -62,7 +62,10 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <math.h>
+
+#ifndef NDEBUG
 #define NDEBUG
+#endif
 #include <assert.h>
 #include "sprng_interface.h"
 #include "lfg.h"

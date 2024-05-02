@@ -27,7 +27,10 @@
 #include "sprng_interface.h"
 #include "lcg.h"
 #include <limits.h>
+
+#ifndef NDEBUG
 #define NDEBUG
+#endif
 #include <assert.h>
 #include "store.h"
 

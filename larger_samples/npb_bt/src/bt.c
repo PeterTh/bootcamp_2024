@@ -139,6 +139,9 @@ int main(int argc, char *argv[])
     while (fgetc(fp) != '\n');
     result = fscanf(fp, "%d%d%d\n", 
         &grid_points[0], &grid_points[1], &grid_points[2]);
+    if(result != 0) {
+      printf("Error reading input\n");
+    }
     fclose(fp);
   } else {
     printf(" No input file inputbt.data. Using compiled defaults\n");

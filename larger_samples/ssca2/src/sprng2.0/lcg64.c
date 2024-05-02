@@ -25,7 +25,10 @@
 #include <string.h>
 #include <stdlib.h>
 #include <limits.h>
+
+#ifndef NDEBUG
 #define NDEBUG
+#endif
 #include <assert.h>
 #include "memory.h"
 #include "sprng_interface.h"

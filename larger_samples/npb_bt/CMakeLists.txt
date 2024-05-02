@@ -6,12 +6,12 @@ set_property(GLOBAL PROPERTY C_STANDARD 11)
 if(MSVC)
   add_compile_options(/W4)
 else()
-  add_compile_options(-Wall -Wextra -Wno-unknown-pragmas -Wno-unused-parameter)
+  add_compile_options(-Wall -Wextra -Wno-unknown-pragmas -Wno-unused-parameter -fopenmp)
 endif()
 
 file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS src/*.c src/*.h)
 
-link_libraries(m)
+link_libraries(m gomp)
 
 add_executable(npb_bt_w ${SOURCE_FILES})
 target_include_directories(npb_bt_w PRIVATE src/w)
