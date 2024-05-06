@@ -100,11 +100,18 @@ extern double u      [KMAX][JMAXP+1][IMAXP+1][5];
 extern double rhs    [KMAX][JMAXP+1][IMAXP+1][5];
 
 /* common /work_1d/ */
-extern double cuf[PROBLEM_SIZE+1];
-extern double q  [PROBLEM_SIZE+1];
-extern double ue [PROBLEM_SIZE+1][5];
-extern double buf[PROBLEM_SIZE+1][5];
-#pragma omp threadprivate(cuf,q,ue,buf)
+#ifdef _OPENMP
+extern __declspec(thread) double cuf[PROBLEM_SIZE+1];
+extern __declspec(thread) double q  [PROBLEM_SIZE+1];
+extern __declspec(thread) double ue [PROBLEM_SIZE+1][5];
+extern __declspec(thread) double buf[PROBLEM_SIZE+1][5];
+#else
+extern double cuf[PROBLEM_SIZE + 1];
+extern double q[PROBLEM_SIZE + 1];
+extern double ue[PROBLEM_SIZE + 1][5];
+extern double buf[PROBLEM_SIZE + 1][5];
+#endif
+//#pragma omp threadprivate(cuf,q,ue,buf)
       
 
 //-----------------------------------------------------------------------

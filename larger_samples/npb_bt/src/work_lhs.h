@@ -41,9 +41,16 @@
 //---------------------------------------------------------------------
 
 /* common /work_lhs/ */
-extern double fjac[PROBLEM_SIZE+1][5][5];
-extern double njac[PROBLEM_SIZE+1][5][5];
-extern double lhs [PROBLEM_SIZE+1][3][5][5];
+#ifdef _OPENMP
+extern __declspec(thread) double fjac[PROBLEM_SIZE+1][5][5];
+extern __declspec(thread) double njac[PROBLEM_SIZE+1][5][5];
+extern __declspec(thread) double lhs [PROBLEM_SIZE+1][3][5][5];
+extern __declspec(thread) double tmp1, tmp2, tmp3;
+#else
+extern double fjac[PROBLEM_SIZE + 1][5][5];
+extern double njac[PROBLEM_SIZE + 1][5][5];
+extern double lhs[PROBLEM_SIZE + 1][3][5][5];
 extern double tmp1, tmp2, tmp3;
-#pragma omp threadprivate(fjac,njac,lhs,tmp1,tmp2,tmp3)
+#endif
+//#pragma omp threadprivate(fjac,njac,lhs,tmp1,tmp2,tmp3)
 

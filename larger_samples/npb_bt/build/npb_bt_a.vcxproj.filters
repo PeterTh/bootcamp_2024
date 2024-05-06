@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\add.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\adi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\bt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\c_print_results.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\c_timers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\exact_rhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\exact_solution.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\initialize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\print_results.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\randdp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\rhs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\set_constants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\solve_subs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\verify.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\wtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\x_solve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\y_solve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\z_solve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\a\npbparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\b\npbparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\c\npbparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\print_results.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\randdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\s\npbparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\timers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\w\npbparams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\work_lhs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\src\wtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\repos\bootcamp_2024\larger_samples\npb_bt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3C6F273C-4969-3AE3-B286-D306D293550F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7E93CEED-8C92-393E-94F5-59CF12A551A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
