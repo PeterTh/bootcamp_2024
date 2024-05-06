@@ -8,7 +8,7 @@
 #endif
 
 void c_print_results( char   *name,
-                      char   class,
+                      char   Class,
                       int    n1,
                       int    n2,
                       int    n3,
@@ -45,7 +45,7 @@ void c_print_results( char   *name,
 
     printf( "\n\n %s Benchmark Completed\n", name );
 
-    printf( " Class           =                        %c\n", class );
+    printf( " Class           =                        %c\n", Class );
 
     if( n3 == 0 ) {
         long nn = n1;

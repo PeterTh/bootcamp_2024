@@ -7,7 +7,7 @@
 #include "type.h"
 
 
-void print_results(char *name, char class, int n1, int n2, int n3, int niter,
+void print_results(char *name, char Class, int n1, int n2, int n3, int niter,
     double t, double mops, char *optype, logical verified, char *npbversion,
     char *compiletime, char *cs1, char *cs2, char *cs3, char *cs4, char *cs5,
     char *cs6, char *cs7)
@@ -31,7 +31,7 @@ void print_results(char *name, char class, int n1, int n2, int n3, int niter,
 
 
   printf( "\n\n %s Benchmark Completed.\n", name );
-  printf( " Class           =             %12c\n", class );
+  printf( " Class           =             %12c\n", Class);
 
   // If this is not a grid-based problem (EP, FT, CG), then
   // we only print n1, which contains some measure of the

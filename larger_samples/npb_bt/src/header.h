@@ -148,5 +148,5 @@ void z_solve();
 void add();
 void error_norm(double rms[5]);
 void rhs_norm(double rms[5]);
-void verify(int no_time_steps, char *class, logical *verified);
+void verify(int no_time_steps, char *Class, logical *verified);
 
