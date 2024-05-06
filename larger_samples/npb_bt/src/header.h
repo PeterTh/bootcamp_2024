@@ -50,6 +50,8 @@
 //      niter_default: default number of iterations for this problem size
 //---------------------------------------------------------------------
 
+#include "tracy/Tracy.hpp"
+
 #include "npbparams.h"
 #include "type.h"
 

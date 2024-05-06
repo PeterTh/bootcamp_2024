@@ -36,6 +36,7 @@
 
 void adi()
 {
+	ZoneScoped;
   compute_rhs();
 
   x_solve();

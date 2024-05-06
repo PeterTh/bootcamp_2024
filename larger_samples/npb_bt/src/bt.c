@@ -188,6 +188,7 @@ int main(int argc, char *argv[])
   timer_start(1);
 
   for (step = 1; step <= niter; step++) {
+      FrameMark;
     if ((step % 20) == 0 || step == 1) {
       printf(" Time step %4d\n", step);
     }
